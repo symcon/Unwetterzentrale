@@ -117,8 +117,23 @@
 			$im = ImageCreateFromString($data);
 
 			//Stärken
+			
+			$rainColors[8] = array(
+				"r" => 0,
+				"g" => 0,
+				"b" => 254
+			);
+			$allowedDifference[8] = 20;
+			
+			$rainColors[7] = array(
+				"r" => 128,
+				"g" => 0,
+				"b" => 128
+			);
+			$allowedDifference[7] = 20;
+			
 			$rainColors[6] = array(
-				"r" => 255,
+				"r" => 253,
 				"g" => 0,
 				"b" => 0
 			);
@@ -126,36 +141,36 @@
 
 			$rainColors[5] = array(
 				"r" => 255,
-				"g" => 0,
-				"b" => 221
+				"g" => 147,
+				"b" => 38
 			);
             $allowedDifference[5] = 20;
 
 			$rainColors[4] = array(
-				"r" => 0,
-				"g" => 0,
-				"b" => 255
+				"r" => 254,
+				"g" => 254,
+				"b" => 77
 			);
             $allowedDifference[4] = 30;
 
 			$rainColors[3] = array(
-				"r" => 25,
-				"g" => 229,
-				"b" => 255
+				"r" => 165,
+				"g" => 254,
+				"b" => 76
 			);
             $allowedDifference[3] = 40;
 
 			$rainColors[2] = array(
 				"r" => 0,
-				"g" => 127,
+				"g" => 139,
 				"b" => 0
 			);
             $allowedDifference[2] = 15;
 
 			$rainColors[1] = array(
-				"r" => 237,
-				"g" => 255,
-				"b" => 94
+				"r" => 22,
+				"g" => 229,
+				"b" => 255
 			);
             $allowedDifference[1] = 30;
 
