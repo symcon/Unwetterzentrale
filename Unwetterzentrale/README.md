@@ -24,8 +24,9 @@ Das Modul berechnet einen gewichteten Regenwert in einem ausgewählten Bereich d
 
 ### 3. Software-Installation
 
-Über das Modul-Control folgende URL hinzufügen.  
-`git://github.com/symcon/SymconMisc.git`  
+* Über den Modul Store das Modul Unwetterzentrale installieren.
+* Alternativ über das Modul Control folgende URL hinzufügen:
+´https://github.com/symcon/Unwetterzentrale`  
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
