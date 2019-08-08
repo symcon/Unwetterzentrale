@@ -49,7 +49,7 @@ Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzeln
 
 Name        | Typ     | Beschreibung
 ----------- | ------- | ----------------
-Regenwert   | Integer | Gewichteter Wert der ausgewerteten Regenmenge. 8-stufige Gewichtung: Leichter Regen = Hellblau = 1 -> ... -> Starker Regen = Dunklblau = 8
+Regenwert   | Integer | Gewichteter Wert der ausgewerteten Regenmenge. 8-stufige Gewichtung: Leichter Regen = Hellblau = 1 -> ... -> Starker Regen = Dunkelblau = 8
 Radarbild   | Medien  | Radarbild des ausgewählten Kartenausschnitts
 
 ##### Profile:
