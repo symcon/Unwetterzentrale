@@ -111,7 +111,7 @@ declare(strict_types=1);
             }
 
             //Radarbild auswerten
-            $im = ImageCreateFromString($data);
+            $im = imagecreatefromstring($data);
 
             //Stärken
 
@@ -205,7 +205,7 @@ declare(strict_types=1);
             $this->SendDebug('Stats', $matched . ' / ' . $all, 0);
 
             // Bereich zeichnen
-            $rot = ImageColorAllocate($im, 255, 0, 0);
+            $rot = imagecolorallocate($im, 255, 0, 0);
             imagerectangle($im, $homeX - $homeRadius, $homeY - $homeRadius, $homeX + $homeRadius, $homeY + $homeRadius, $rot);
             imagesetpixel($im, $homeX, $homeY, $rot);
             imagepng($im, $imagePath);
