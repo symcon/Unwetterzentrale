@@ -1,7 +1,7 @@
 # Unwetterzentrale
 Das Modul berechnet einen gewichteten Regenwert in einem ausgewählten Bereich des Radarbilds.
 
-### Inhaltverzeichnis
+### Inhaltsverzeichnis
 
 1. [Funktionsumfang](#1-funktionsumfang)
 2. [Voraussetzungen](#2-voraussetzungen)
@@ -20,17 +20,17 @@ Das Modul berechnet einen gewichteten Regenwert in einem ausgewählten Bereich d
 
 ### 2. Voraussetzungen
 
-- IP-Symcon ab Version 4.x
+- IP-Symcon ab Version 4.2
 
 ### 3. Software-Installation
 
 * Über den Modul Store das Modul Unwetterzentrale installieren.
 * Alternativ über das Modul Control folgende URL hinzufügen:
-´https://github.com/symcon/Unwetterzentrale`  
+`https://github.com/symcon/Unwetterzentrale`  
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" ist das 'Unwetterzentrale'-Modul unter dem Hersteller '(Sonstige)' aufgeführt.  
+- Unter "Instanz hinzufügen" ist das 'Unwetterzentrale'-Modul unter dem Hersteller '(Gerät)' aufgeführt.  
 
 __Konfigurationsseite__:
 
@@ -55,7 +55,7 @@ Radarbild   | Medien  | Radarbild des ausgewählten Kartenausschnitts
 
 ##### Profile:
 
-Es werden keine zusätzlichen Profile hinzugefügt
+Es werden keine zusätzlichen Profile hinzugefügt.
 
 ### 6. WebFront
 
