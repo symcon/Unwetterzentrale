@@ -30,7 +30,7 @@ Das Modul berechnet einen gewichteten Regenwert in einem ausgewählten Bereich d
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" ist das 'Unwetterzentrale'-Modul unter dem Hersteller '(Gerät)' aufgeführt.  
+- Unter "Instanz hinzufügen" kann das 'Unwetterzentrale'-Modul mithilfe der Schnellsuche gefunden werden.  
 
 __Konfigurationsseite__:
 
