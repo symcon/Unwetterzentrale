@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 include_once __DIR__ . '/stubs/Validator.php';
-class UnwetterValidationTest extends TestCaseSymconValidation
+class UnwetterZentraleValidationTest extends TestCaseSymconValidation
 {
     public function testValidateUnwetterzentrale(): void
     {
