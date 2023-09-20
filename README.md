@@ -6,5 +6,5 @@
 
 Folgende Module beinhaltet das Unwetterzentrale Repository:
 
-- __Unwetterzentrale__ ([Dokumentation](Unwetterzentrale))  
+- __Unwetterzentrale__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/unwetterzentrale))  
 	Holt das aktuelle Regenradarbild von Wetteronline und wertet die Farbpixel der Regenmenge aus.
