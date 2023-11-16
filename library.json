@@ -1,12 +1,12 @@
 {
-	"id": "{49AB40CD-8D22-4401-8A58-CCDB6DF78F31}",
-	"author": "Symcon GmbH",
-	"name": "Unwetterzentrale",
-	"url": "https://www.symcon.de/",
-	"compatibility": {
-		"version": "4.2"
-	},
-	"version": "1.0",
-	"build": 0,
-	"date": 0
+    "id": "{49AB40CD-8D22-4401-8A58-CCDB6DF78F31}",
+    "author": "Symcon GmbH",
+    "name": "Unwetterzentrale",
+    "url": "https://www.symcon.de/",
+    "compatibility": {
+        "version": "4.2"
+    },
+    "version": "1.0",
+    "build": 0,
+    "date": 0
 }
