@@ -1,29 +1,85 @@
 {
-	"elements":
-	[
-		{ "name": "area", "type": "Select", "caption": "Area",
-			"options": [
-				{ "label": "Germany", "value": "DL" },
-				{ "label": "Baden-Württemberg", "value": "BWB" },
-				{ "label": "Bayern", "value": "BAY" },
-				{ "label": "Brandenburg/Berlin", "value": "BRA" },
-				{ "label": "Hessen", "value": "HES" },
-				{ "label": "Mecklenburg-Vorpommern", "value": "MVP" },
-				{ "label": "Niedersachsen/Bremen", "value": "NIE" },
-				{ "label": "NRW", "value": "NRW" },
-				{ "label": "Rheinland-Pfalz/Saarland", "value": "RHP" },
-				{ "label": "Sachsen", "value": "SAC" },
-				{ "label": "Sachsen-Anhalt", "value": "SAH" },
-				{ "label": "Schleswig-Holstein/Hamburg", "value": "SHS" },
-				{ "label": "Thüringen", "value": "THU" }
-			]
-		},
-		{ "name": "homeX", "type": "NumberSpinner", "caption": "X" },
-		{ "name": "homeY", "type": "NumberSpinner", "caption": "Y" },
-		{ "name": "homeRadius", "type": "NumberSpinner", "caption": "Radius" }
-	],
-	"actions":
-	[
-		{ "type": "Button", "label": "Update", "onClick": "UWZ_RequestInfo($id);" }
-	]
+    "elements": [
+        {
+            "name": "area",
+            "type": "Select",
+            "caption": "Area",
+            "options": [
+                {
+                    "label": "Germany",
+                    "value": "DL"
+                },
+                {
+                    "label": "Baden-Württemberg",
+                    "value": "BWB"
+                },
+                {
+                    "label": "Bayern",
+                    "value": "BAY"
+                },
+                {
+                    "label": "Brandenburg/Berlin",
+                    "value": "BRA"
+                },
+                {
+                    "label": "Hessen",
+                    "value": "HES"
+                },
+                {
+                    "label": "Mecklenburg-Vorpommern",
+                    "value": "MVP"
+                },
+                {
+                    "label": "Niedersachsen/Bremen",
+                    "value": "NIE"
+                },
+                {
+                    "label": "NRW",
+                    "value": "NRW"
+                },
+                {
+                    "label": "Rheinland-Pfalz/Saarland",
+                    "value": "RHP"
+                },
+                {
+                    "label": "Sachsen",
+                    "value": "SAC"
+                },
+                {
+                    "label": "Sachsen-Anhalt",
+                    "value": "SAH"
+                },
+                {
+                    "label": "Schleswig-Holstein/Hamburg",
+                    "value": "SHS"
+                },
+                {
+                    "label": "Thüringen",
+                    "value": "THU"
+                }
+            ]
+        },
+        {
+            "name": "homeX",
+            "type": "NumberSpinner",
+            "caption": "X"
+        },
+        {
+            "name": "homeY",
+            "type": "NumberSpinner",
+            "caption": "Y"
+        },
+        {
+            "name": "homeRadius",
+            "type": "NumberSpinner",
+            "caption": "Radius"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Button",
+            "label": "Update",
+            "onClick": "UWZ_RequestInfo($id);"
+        }
+    ]
 }
