@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class Unwetterzentrale extends IPSModule
+class RainCentral extends IPSModule
 {
     private $imagePath;
 

@@ -6,7 +6,7 @@
   </php>
   <source>
     <include>
-      <directory suffix=".php">../Unwetterzentrale</directory>
+      <directory suffix=".php">../RainCentral</directory>
     </include>
   </source>
 </phpunit>
