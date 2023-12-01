@@ -1,0 +1,10 @@
+{
+    "translations": {
+        "de": {
+            "Area": "Gebiet",
+            "Germany": "Deutschland",
+            "Rain Central": "Unwetterzentrale",
+            "https://www.symcon.de/en/service/documentation/module-reference/rain-central/": "https://www.symcon.de/de/service/dokumentation/modulreferenz/unwetterzentrale/"
+        }
+    }
+}

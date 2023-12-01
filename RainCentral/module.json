@@ -1,14 +1,14 @@
 {
     "id": "{E5AA629B-75BD-45C0-9BCB-845C102B0411}",
-    "name": "Unwetterzentrale",
+    "name": "Rain Central",
     "type": 3,
     "vendor": "",
     "aliases": [
-        "Unwetterzentrale"
+        "Rain Central"
     ],
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
     "prefix": "UWZ",
-    "url": "https://github.com/symcon/Unwetterzentrale/tree/master/Unwetterzentrale"
+    "url": "https://www.symcon.de/en/service/documentation/module-reference/rain-central/"
 }

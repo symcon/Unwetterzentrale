@@ -8,8 +8,8 @@ class UnwetterZentraleValidationTest extends TestCaseSymconValidation
     {
         $this->validateLibrary(__DIR__ . '/..');
     }
-    public function testValidateUnwetterzentraleModule(): void
+    public function testValidateRainCentralModule(): void
     {
-        $this->validateModule(__DIR__ . '/../Unwetterzentrale');
+        $this->validateModule(__DIR__ . '/../RainCentral');
     }
 }
