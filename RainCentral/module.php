@@ -53,26 +53,25 @@ class RainCentral extends IPSModule
         $homeRadius = $this->ReadPropertyInteger('homeRadius');
 
         //Download picture
-        $opts = [
-            'http'=> [
-                'method'       => 'GET',
-                'max_redirects'=> 1,
-                'header'       => 'User-Agent: ' . 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
-            ]
-        ];
-        $context = stream_context_create($opts);
-
         $remoteImage = 'https://www.dwd.de/DWD/wetter/radar/rad_' . $this->ConvertArea($area) . '_akt.jpg';
-        $data = file_get_contents($remoteImage, false, $context);
+
+        $ch = curl_init($remoteImage);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36');
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_MAXREDIRS, 1);
+        $data = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
 
         if ($data === false) {
             return;
         }
 
-        $this->SendDebug($http_response_header[0], $remoteImage, 0);
+        $this->SendDebug('HTTP ' . $httpCode, $remoteImage, 0);
 
-        if ((strpos($http_response_header[0], '200') === false)) {
-            echo $http_response_header[0] . ' ' . $data;
+        if ($httpCode !== 200) {
+            echo 'HTTP ' . $httpCode . ' ' . $data;
             return;
         }
 
